@@ -1,0 +1,83 @@
+.dropdown-item:hover{
+    background-color: transparent !important;
+}
+
+.dropdown-item:active{
+    background-color: transparent !important;
+}
+
+.dropdown-item:focus{
+    background-color: transparent !important;
+}
+
+.table-paiement .table-paiement-item{
+    cursor: pointer;
+    border-bottom: 0.5px solid rgb(204, 204, 204);
+}
+/* 
+.table-paiement .table-paiement-item:hover{
+    
+} */
+
+.table-paiement .table-paiement-item .table-paiement-contenu{
+    border-radius: 10px !important;
+}
+
+.table-paiement .table-paiement-item .table-paiement-contenu:hover{
+    background-color: rgba(180, 180, 180, 0.062);
+}
+
+.table-paiement .table-paiement-item .select{
+    background-color: rgba(0, 0, 139, 0.062);
+}
+
+.val.active{
+    /* background-color: white!important;
+    color: #696cff!important; */
+    font-weight: 600;
+}
+
+/* #test-scroll{
+    overflow-y: scroll!important;
+    scrollbar-width: thin!important;
+    scrollbar-color: red green!important;
+} */
+
+.infosPersoFirst{
+    border-radius: 20px 20px 45% 45%;
+}
+
+.patient-msg-diff:hover{
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.medecinParam{
+    transition: 0.3s;
+}
+
+.medecinParam:hover{
+    background-color: rgba(128, 128, 128, 0.005)!important;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.patient-row{
+    transition: 0.3s;
+}
+
+.patient-row:hover{
+    background-color: rgba(128, 128, 128, 0.185)!important;
+    cursor: pointer;
+    transform: scale(0.99);
+}
+
+.patient-card{
+    transition: 0.3s;
+}
+
+.patient-card:hover{
+    background-color: rgba(236, 236, 236, 0.966)!important;
+    cursor: pointer;
+    transform: scale(1.03);
+    border-radius: 5px;
+}
