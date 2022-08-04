@@ -100,8 +100,8 @@ $services = Service::orderBy('nom')->get();
                         type="text"
                         class="form-control"
                         id="basic-icon-default-fullname"
-                        placeholder="Nom du personnel"
-                        aria-label="Nom du personnel"
+                        placeholder="Nom de la salle"
+                        aria-label="Nom de la salle"
                         aria-describedby="basic-icon-default-fullname2"
                         name="nomSalle"
                       />
@@ -109,13 +109,13 @@ $services = Service::orderBy('nom')->get();
                 </div>
                 <div class="row g-md-2 mb-4">
                     <div class="col mb-0 text-start">
-                    <label for="nameWithTitle" class="form-label">Lits</label>
+                    <label for="nameWithTitle" class="form-label">Description</label>
                         <input
                           type="text"
                           class="form-control"
                           id="basic-icon-default-fullname"
-                          placeholder="Prenom du personnel"
-                          aria-label="Prenom du personnel"
+                          placeholder="Description de la salle"
+                          aria-label="Description de la salle"
                           aria-describedby="basic-icon-default-fullname2"
                           name="descriptionSalle"
                         />

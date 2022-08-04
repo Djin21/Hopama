@@ -200,6 +200,12 @@ class AdminController extends Controller
         }else{
             Personnel::where('id', $idPersonnel)->update([
                 'nom' => $request->nomPersonnel,
+                'prenom' => $request->prenomPersonnel,
+                'sexe' => $request->sexePersonnel == 'masculin' ? 0 : 1,
+                'dateNaiss' => $request->dateNaissPersonnel,
+                'lieuNaiss' => $request->lieuNaissPersonnel,
+                'telephone' => $request->telPersonnel,
+                'service_id' => $request->service,
                 'code' => $request->codePersonnel,
                 // 'service_id' => $request->service
             ]);

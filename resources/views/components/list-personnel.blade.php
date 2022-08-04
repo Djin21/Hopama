@@ -181,6 +181,7 @@ $services = Service::orderBy('nom')->get();
                         aria-label="code"
                         aria-describedby="basic-icon-default-fullname2"
                         name="codePersonnel"
+                        value="{{ $personnel->code }}"
                       />
                   </div>
                 </div>
